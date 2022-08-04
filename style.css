@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+
+}
+header{
+    text-align: center;
+    margin-top: 25px ;
+}
+.addWordsBox , .censorBox{
+    width: 700px;
+    /*border: 1px solid black;*/
+    height: 150px;
+    margin: 50px auto;
+}
+.badWords{
+    height: 40px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+form[name='formBox']{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+input[name='typeBadWords']{
+    height: 30px;
+    width: 500px;
+
+}
+textarea{
+    height: 90px;
+    width: 100%;
+}
+
+input[value='Add']{
+    height: 30px;
+    width: 80px;
+}
+input[value='Reset']{
+    height: 30px;
+    width: 80px;
+}
+input[value='censor']{
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+.redBadWords{
+    color: red;
+}
